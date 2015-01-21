@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
     
     s.name         = "PTEHorizontalTableView"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.summary      = "Horizontal UITableView inspired by EasyTableView."
     s.homepage     = "https://github.com/PTEz/PTEHorizontalTableView"
     
