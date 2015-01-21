@@ -48,5 +48,26 @@
     return cell;
 }
 
+- (CGFloat)tableView:(PTEHorizontalTableView *)horizontalTableView widthForCellAtIndexPath:(NSIndexPath *)indexPath{
+    return 90;
+}
+
+- (UIView*)tableView:(PTEHorizontalTableView*)horizontalTableView viewForHeaderInSection:(NSInteger)section{
+    UIView *m = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 50,90)];
+    [m setBackgroundColor:[UIColor darkGrayColor]];
+    return m;
+}
+
+- (UIView*)tableView:(PTEHorizontalTableView*)horizontalTableView viewForFooterInSection:(NSInteger)section{
+    UIView *m = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 50,90)];
+    [m setBackgroundColor:[UIColor redColor]];
+    return m;
+}
+
+- (void)tableView:(PTEHorizontalTableView *)horizontalTableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSLog(@"selected row -> %ld",(long)indexPath.row);
+    [horizontalTableView.tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 @end
 
