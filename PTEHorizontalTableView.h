@@ -3,7 +3,7 @@
 //  PTEHorizontalTableView
 //
 //  Created by Ernesto Rivera on 8/12/14.
-//  Copyright (c) 2014 PTEz.
+//  Copyright (c) 2014-2017 PTEz.
 //  Inspired by EasyTableView by Aleksey Novicov.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
