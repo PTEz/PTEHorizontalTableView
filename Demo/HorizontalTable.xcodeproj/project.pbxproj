@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEBFF8F457264B1D0A1E0781 /* Pods_HorizontalTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B45D443B3BB811BE1A71D /* Pods_HorizontalTable.framework */; };
 		E5E7D0B31A358B4800AB377F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7D0B21A358B4800AB377F /* main.m */; };
 		E5E7D0B61A358B4800AB377F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7D0B51A358B4800AB377F /* AppDelegate.m */; };
 		E5E7D0B91A358B4800AB377F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7D0B81A358B4800AB377F /* ViewController.m */; };
 		E5E7D0BC1A358B4800AB377F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E7D0BA1A358B4800AB377F /* Main.storyboard */; };
 		E5E7D0BE1A358B4800AB377F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E7D0BD1A358B4800AB377F /* Images.xcassets */; };
-		E5E7D1131A358C0000AB377F /* PTEHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7D0EF1A358C0000AB377F /* PTEHorizontalTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		447AB9DF9530F579561E940F /* Pods-HorizontalTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalTable/Pods-HorizontalTable.debug.xcconfig"; sourceTree = "<group>"; };
+		8E8B45D443B3BB811BE1A71D /* Pods_HorizontalTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD76A58B576496F2828A45D4 /* Pods-HorizontalTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalTable/Pods-HorizontalTable.release.xcconfig"; sourceTree = "<group>"; };
 		E5E7D0AD1A358B4800AB377F /* HorizontalTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E7D0B11A358B4800AB377F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5E7D0B21A358B4800AB377F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -25,8 +28,6 @@
 		E5E7D0B81A358B4800AB377F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E5E7D0BD1A358B4800AB377F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E5E7D0D61A358BE200AB377F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E5E7D0EE1A358C0000AB377F /* PTEHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTEHorizontalTableView.h; sourceTree = "<group>"; };
-		E5E7D0EF1A358C0000AB377F /* PTEHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTEHorizontalTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,18 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBFF8F457264B1D0A1E0781 /* Pods_HorizontalTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		241AB5C5746FA91498C45F13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				447AB9DF9530F579561E940F /* Pods-HorizontalTable.debug.xcconfig */,
+				DD76A58B576496F2828A45D4 /* Pods-HorizontalTable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D267192BED3C7F65BDF468C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E8B45D443B3BB811BE1A71D /* Pods_HorizontalTable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5E7D0A41A358B4800AB377F = {
 			isa = PBXGroup;
 			children = (
-				E5E7D0D71A358C0000AB377F /* PTEHorizontalTableView */,
 				E5E7D0AF1A358B4800AB377F /* HorizontalTable */,
 				E5E7D0AE1A358B4800AB377F /* Products */,
+				241AB5C5746FA91498C45F13 /* Pods */,
+				D267192BED3C7F65BDF468C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,16 +100,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E5E7D0D71A358C0000AB377F /* PTEHorizontalTableView */ = {
-			isa = PBXGroup;
-			children = (
-				E5E7D0EE1A358C0000AB377F /* PTEHorizontalTableView.h */,
-				E5E7D0EF1A358C0000AB377F /* PTEHorizontalTableView.m */,
-			);
-			name = PTEHorizontalTableView;
-			path = ..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5E7D0D01A358B4800AB377F /* Build configuration list for PBXNativeTarget "HorizontalTable" */;
 			buildPhases = (
+				14AEBE9D5D9519BDD61AA49B /* [CP] Check Pods Manifest.lock */,
 				E5E7D0A91A358B4800AB377F /* Sources */,
 				E5E7D0AA1A358B4800AB377F /* Frameworks */,
 				E5E7D0AB1A358B4800AB377F /* Resources */,
+				B223C9D5882BCEE9034E7215 /* [CP] Embed Pods Frameworks */,
+				8EE658D7A3E1BD06C2AA7D8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -116,7 +129,7 @@
 		E5E7D0A51A358B4800AB377F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = PTEz;
 				TargetAttributes = {
 					E5E7D0AC1A358B4800AB377F = {
@@ -154,12 +167,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14AEBE9D5D9519BDD61AA49B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HorizontalTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE658D7A3E1BD06C2AA7D8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HorizontalTable/Pods-HorizontalTable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B223C9D5882BCEE9034E7215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HorizontalTable/Pods-HorizontalTable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PTEHorizontalTableView/PTEHorizontalTableView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PTEHorizontalTableView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HorizontalTable/Pods-HorizontalTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5E7D0A91A358B4800AB377F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5E7D1131A358C0000AB377F /* PTEHorizontalTableView.m in Sources */,
 				E5E7D0B91A358B4800AB377F /* ViewController.m in Sources */,
 				E5E7D0B61A358B4800AB377F /* AppDelegate.m in Sources */,
 				E5E7D0B31A358B4800AB377F /* main.m in Sources */,
@@ -188,20 +254,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -214,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -230,13 +306,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -244,13 +328,14 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -260,22 +345,26 @@
 		};
 		E5E7D0D11A358B4800AB377F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447AB9DF9530F579561E940F /* Pods-HorizontalTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HorizontalTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PTEz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		E5E7D0D21A358B4800AB377F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD76A58B576496F2828A45D4 /* Pods-HorizontalTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HorizontalTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PTEz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

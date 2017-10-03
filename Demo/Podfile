@@ -1,0 +1,13 @@
+
+platform :ios, '8.0'
+use_frameworks!
+
+target 'HorizontalTable' do
+    
+# For regular projects
+#pod 'PTEHorizontalTableView'
+
+# For development
+pod 'PTEHorizontalTableView', :path => '../'
+
+end

@@ -1,0 +1,6 @@
+framework module Pods_HorizontalTable {
+  umbrella header "Pods-HorizontalTable-umbrella.h"
+
+  export *
+  module * { export * }
+}
