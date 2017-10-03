@@ -3,7 +3,7 @@ PTEHorizontalTableView
 ======================
 
 [![Platform: iOS](https://img.shields.io/cocoapods/p/PTEHorizontalTableView.svg?style=flat)](http://cocoadocs.org/docsets/PTEHorizontalTableView/)
-[![Version: 1.0.1](https://img.shields.io/cocoapods/v/PTEHorizontalTableView.svg?style=flat)](http://cocoadocs.org/docsets/PTEHorizontalTableView/)
+[![Version: 1.1.0](https://img.shields.io/cocoapods/v/PTEHorizontalTableView.svg?style=flat)](http://cocoadocs.org/docsets/PTEHorizontalTableView/)
 [![License: Apache 2.0](https://img.shields.io/cocoapods/l/PTEHorizontalTableView.svg?style=flat)](http://cocoadocs.org/docsets/PTEHorizontalTableView/)
 [![Dependency Status](https://www.versioneye.com/objective-c/PTEHorizontalTableView/badge.svg?style=flat)](https://www.versioneye.com/objective-c/PTEHorizontalTableView)
 [![Build Status](http://img.shields.io/travis/PTEz/PTEHorizontalTableView/master.svg?style=flat)](https://travis-ci.org/PTEz/PTEHorizontalTableView)
