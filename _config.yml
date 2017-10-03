@@ -1,0 +1,8 @@
+title: PTEHorizontalTableView
+description: Horizontal UITableView inspired by EasyTableView
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
