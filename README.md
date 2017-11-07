@@ -28,7 +28,8 @@ A demo project is [included](Demo) in the repository.
 Simply add `pod 'PTEHorizontalTableView'` to your [CocoaPods](http://cocoapods.org)' [Podfile](http://guides.cocoapods.org/syntax/podfile.html).
 
 ```ruby
-platform :ios, '5.0'
+platform :ios, '8.0'
+use_frameworks!
 
 pod 'PTEHorizontalTableView'
 ```
