@@ -1,6 +1,0 @@
-framework module PTEHorizontalTableView {
-  umbrella header "PTEHorizontalTableView-umbrella.h"
-
-  export *
-  module * { export * }
-}
